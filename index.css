@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ====================START NAV BAR================ */
+
+nav{
+    width: 100%;
+}
+#navContainer{
+    background-color: #a8a8a8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    padding: 20px;
+}
+/* ====================END NAV BAR================ */
+
+/* ====================START Profile ================ */
+
+#profileContainer{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/man\ pic.tn.webp);
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: cover;
+    color: white;
+}
+.profile{
+    padding: 100px;
+
+}
+.profile h3{
+    font-size: 2rem;
+}
+.profile h1{
+    font-size: 5rem;
+    /* font-weight: ; */
+}
+.profile h1 span{
+    color: red;
+}    
+.profile p{
+    font-size: 1rem;
+    word-spacing: 4px;
+    line-height: 25px;
+    margin: 30px 0px;
+}
+.profile button{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    font-weight: bold;
+}
+.profile button:hover{
+    background-color: rgb(83, 83, 83);
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+/* ====================End Profile ================ */
+
+/* ==================== Start About Me ================ */
+
+
+
+.aboutContainer{
+    width: 100%;
+    height: 100vh;
+    padding: 50px 150px 50px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboutContainer .content h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.aboutContainer .content p{
+    font-size: 1rem;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.aboutContainer .content .aboutmeButton button{
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.aboutContainer .content .aboutmeButton button:hover{
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.aboutContainer .content .aboutmeButton .button2{
+    margin-left: 100px;
+}
+/* ==================== End About Me ================ */
+
+
+/* ==================== Start Our Services ================ */
+.services{
+    text-align: center;
+}
+.services .services{
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.services h1{
+    margin-bottom: 100px;
+}
+.cards{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 20px;
+
+
+}
+.keyTarget{
+    text-align: center;
+    width: 20%;
+    height: 50%;
+    padding: 20px;
+}
+.keyTarget img{
+    margin-bottom: 40px;
+}
+.keyTarget h3{
+    margin-bottom: 30px;
+}
+.keyTarget p{
+    line-height: 25px;
+}
+
+
+/* ==================== End Our Services ================ */
+
+/* ==================== Footer Start ================ */
+.footer{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #cac8c8;
+}
+
+/* ==================== Footer End ================ */
+
